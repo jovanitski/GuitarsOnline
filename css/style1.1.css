@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+
+}
+p {
+  font-size:20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.art a {
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.menu{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 10px;
+
+
+
+}
+
+.menu li{
+	list-style: none;
+	color: black;
+	background-color: #056571;
+	text-align: center;
+	padding: 15px;
+	margin-right: 10px;
+	font-family: verdana;
+	color: white;
+  width: 250px;
+  margin-top: 40px;
+  filter: opacity(70%);
+  text-transform: uppercase;
+}
+
+.menu li:hover {
+	background-color: #ffffff;
+  color: black;
+}
+
+
+
+.top {
+  background-image: url(../images/bg1.png);
+  height: 100vh;
+  background-size: cover;
+  background-position:center;
+  border: 0.1px black solid;
+}
+
+.top1 {
+  height: 93vh;
+  border: 5px   white solid;
+  margin:20px;
+  display: grid;
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: none;
+  background-image:url(../images2/dot.png);
+}
+
+.container {
+    background-image: url(../images/pg.png);
+    background-size: cover;
+    margin-top: none;
+    border: .1px black solid;
+}
+
+.pics {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.none {
+  margin: 10PX;
+  height: 5vh;
+}
+
+.pic1 {
+  height: 580px;
+  margin: 90px;
+  margin-bottom: 30px;
+  width: 350px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+
+.pic1 figure {
+  position: relative;
+  width: 500%;
+  left: 0;
+  margin: 0;
+  animation: 10s slideshow infinite;
+}
+
+.pic1 figure img {
+    width: 20%;
+    float: left;
+}
+
+.art {
+  margin-right: 200px;
+  margin-top:81px;
+  width: 700px;
+}
+.tab {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.footer p{
+  text-align: center;
+}
+
+.footer a {
+  text-decoration:underline;
+}
+
+.footer {
+  border: .1px black solid;
+  height: 20vh;
+  background-color: gray;
+}
+
+@keyframes slideshow {
+  0% {
+    left: 0%;
+  }
+
+    20% {
+    left: 0%;
+    }
+
+    25% {
+         left: -100%;
+    }
+
+    45% {
+      left: -100%;
+    }
+
+    50% {
+      left: -200%;
+    }
+
+    70% {
+      left: -200%;
+    }
+
+    75%: {
+      left: -300%;
+    }
+
+    95% {
+      left: -300%;
+    }
+
+    100% {
+      left:-400%;
+    }
+
+    100% {
+      left:-400%;
+    }
+}
